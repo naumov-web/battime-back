@@ -1,0 +1,107 @@
+#offers-page {
+  padding-bottom: 120px;
+}
+#offers-page .main-row {
+  margin-bottom: 54px;
+}
+/** Column 1 */
+#offers-page .main-row .col1 {
+  width: 240px;
+  padding-right: 30px;
+  border-right: 1px solid #e5e5e5;
+}
+#offers-page .news-category-block {
+  margin-bottom: 77px;
+}
+/** Column 2 */
+#offers-page .main-row .col2 {
+  flex-grow: 2;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-right: 1px solid #e5e5e5;
+}
+#offers-page h1 {
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: #333936;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #E5E5E5;
+  margin-bottom: 16px;
+  margin-top: 26px;
+}
+#offers-page .categories {
+  margin-bottom: 50px;
+}
+#offers-page .category {
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  letter-spacing: -0.02em;
+  color: #959595;
+  display: inline-block;
+  margin-right: 32px;
+  margin-bottom: 19px;
+}
+#offers-page .category_active {
+  color: #02781D;
+}
+#offers-page .category .count {
+  font-size: 14px;
+  letter-spacing: -0.02em;
+  color: #C4C4C4;
+}
+#offers-page .category_active .count {
+  color: #B3DCBD;
+}
+#offers-page .sorting {
+  padding-bottom: 9px;
+  border-bottom: 1px solid #E5E5E5;
+  margin-bottom: 24px;
+}
+#offers-page .sorting a {
+  font-size: 14px;
+  letter-spacing: -0.02em;
+  color: #4E4E4E;
+  text-decoration: none;
+  margin-right: 40px;
+}
+#offers-page .offers {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+#offers-page .offers .offer {
+  padding: 0;
+  border: none;
+  width: 31%;
+  margin-bottom: 40px;
+}
+#offers-page .offers .offer-image {
+  margin-bottom: 15px;
+}
+#offers-page .offers .offer-image img {
+  width: 100%;
+}
+#offers-page .offers .offer a {
+  font-size: 14px;
+  font-weight: bold;
+  color: #333936;
+  text-decoration: none;
+}
+#offers-page .offers .offer-price {
+  margin-top: 8px;
+  font-size: 14px;
+  letter-spacing: -0.02em;
+  color: #4E4E4E;
+}
+#offers-page .offers .offer-date {
+  font-size: 12px;
+  letter-spacing: -0.02em;
+  color: #959595;
+}
+/** Column 3 */
+#offers-page .main-row .col3 {
+  width: 240px;
+  padding-left: 30px;
+}

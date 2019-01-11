@@ -1,0 +1,141 @@
+body {
+  font-family: Roboto;
+  font-size: 16px;
+  color: #333936;
+}
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.row {
+  display: flex;
+}
+.width-100 {
+  width: 100%;
+  box-sizing: border-box;
+}
+/** Header styles */
+.header {
+  border-bottom: 1px solid #e5e5e5;
+}
+.header .header-row {
+  justify-content: space-between;
+}
+.header .col1 {
+  padding: 11px 0 11px 0;
+  width: 240px;
+}
+.header .col2 {
+  display: flex;
+  flex-grow: 2;
+}
+.header .col3 {
+  width: 240px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header .col2 ul {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: flex-end;
+  position: relative;
+  top: 1px;
+}
+.header .col2 ul li {
+  padding-bottom: 15px;
+  border-bottom: 2px solid transparent;
+}
+.header .col2 ul .active {
+    border-bottom: 2px solid #02781D;
+}
+.header .col2 ul a {
+  text-decoration: none;
+  color: #333936;
+  font-weight: 700;
+}
+.header .col2 ul .active a {
+  color: #02781D;
+}
+.header__search-button {
+  outline: none;
+  background-color: transparent;
+  border: none;
+}
+/** Top banner style */
+.top-banner {
+  padding: 33px 0 33px 0;
+  text-align: center;
+}
+/** Footer styles */
+.footer {
+  border-top: 1px solid #e5e5e5;
+  padding: 32px 0 40px 0;
+}
+.footer-links {
+  margin-bottom: 33px;
+}
+.footer-links > div {
+  flex-grow: 1;
+}
+.footer-links > div > div {
+  margin-bottom: 15px;
+}
+.footer-links a {
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none;
+  color: #6D6D6D;
+}
+.footer .copyright {
+  font-size: 12px;
+  line-height: 17px;
+  color: #959595;
+}
+.footer .address-row {
+  margin-bottom: 85px;
+}
+.footer .address-row > div {
+  flex-grow: 1;
+  flex-basis: 50%;
+}
+.footer .address {
+  line-height: 23px;
+  font-size: 14px;
+  color: #6D6D6D;
+  font-weight: 500;
+}
+.footer .address-row a {
+  text-decoration: none;
+}
+.footer .social-links {
+  text-align: right;
+}
+.footer .social-links a {
+  margin-left: 35px;
+}
+.footer .subscribe-row > div {
+  flex-grow: 1;
+  flex-basis: 50%;
+}
+.footer .subscribe-row h4 {
+  font-size: 14px;
+  font-weight: 700;
+  color: #6D6D6D;
+  margin-bottom: 15px;
+}
+.footer .authors {
+  padding-top: 42px;
+  text-align: right;
+  color: #959595;
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.footer .authors a {
+  text-decoration: none;
+  color: #959595;
+}

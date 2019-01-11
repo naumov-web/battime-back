@@ -33,10 +33,22 @@ class NewsController extends Controller
     }
 
     /**
+     * Get one news item
+     * 
+     * @access public
+     * @param NewsItem $item
+     * @return NewsItem
+     */
+    public function item(NewsItem $item)
+    {
+        return $this->repository->item($item);
+    }
+
+    /**
      * Create news item
      * 
+     * @access public
      * @param UpdateNewsItemRequest $request
-     * 
      * @return array
      */
     public function create(UpdateNewsItemRequest $request)

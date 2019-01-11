@@ -1,0 +1,112 @@
+#item-page {
+  padding-bottom: 120px;
+}
+#item-page .main-row {
+  margin-bottom: 54px;
+}
+/** Column 1 */
+#item-page .main-row .col1 {
+  width: 240px;
+  padding-right: 30px;
+  border-right: 1px solid #e5e5e5;
+}
+#item-page .news-category-block {
+  margin-bottom: 77px;
+}
+#item-page .interview {
+  margin-bottom: 72px;
+}
+/** Column 2 */
+#item-page .main-row .col2 {
+  flex-grow: 2;
+  padding-right: 30px;
+  padding-left: 30px;
+  border-right: 1px solid #e5e5e5;
+}
+#item-page .news-card {
+  margin-bottom: 28px;
+}
+#item-page .news-card h1 {
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: #333936;
+  margin-bottom: 16px;
+}
+#item-page .news-card .news-date {
+  line-height: 17px;
+  font-size: 12px;
+  letter-spacing: -0.02em;
+  color: #959595;
+  margin-bottom: 16px;
+}
+#item-page .news-card .annotation {
+  line-height: 23px;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: -0.02em;
+  color: #4E4E4E;
+  margin-bottom: 16px;
+}
+#item-page .news-card .news-image {
+  margin-bottom: 32px;
+}
+#item-page .news-card .news-body p {
+  line-height: 23px;
+  font-size: 14px;
+  letter-spacing: -0.02em;
+  color: #4E4E4E;
+  margin-bottom: 16px;
+}
+#item-page .delimiter {
+  height: 1px;
+  background-color: #E5E5E5;
+  margin-bottom: 40px;
+}
+#item-page .comments {
+  padding-left: 34px;
+  padding-right: 34px;
+}
+#item-page .comments h3 {
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: -0.02em;
+  color: #333936;
+  margin-bottom: 24px;
+}
+#item-page .comment {
+  margin-bottom: 24px;
+}
+#item-page .comment .comment-date {
+  line-height: 17px;
+  font-size: 12px;
+  letter-spacing: -0.02em;
+  color: #959595;
+  margin-bottom: 8px;
+}
+#item-page .comment .comment-text {
+  line-height: 23px;
+  font-size: 14px;
+  letter-spacing: -0.02em;
+  color: #4E4E4E;
+  margin-bottom: 16px;
+}
+#item-page .comment .answer button {
+  background-color: transparent;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  color: #02781D;
+  border: none;
+  padding: 0;
+}
+#item-page .comment-delimiter {
+  margin-bottom: 24px;
+  background-color: #E5E5E5;
+  height: 1px;
+}
+/** Column 3 */
+#item-page .main-row .col3 {
+  width: 240px;
+  padding-left: 30px;
+}

@@ -19,9 +19,10 @@ class CreateFilesTable extends Migration
             $table->string('owner_type');
             $table->string('name');
             $table->integer('size');
-            $table->string('extension');
-            $table->boolean('main')->default(false);
-            $table->boolean('isMobile')->default(false);
+            $table->string('mime');
+            $table->boolean('is_main')->default(false);
+            $table->boolean('is_mobile')->default(false);
+            $table->text('hash')->nullable();
             $table->timestamps();
         });
     }
