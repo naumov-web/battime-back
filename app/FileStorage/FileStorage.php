@@ -16,7 +16,8 @@ class FileStorage {
             'name' => $data['name'],
             'mime' => $data['type'],
             'is_main' => $data['is_main'],
-            'hash' => sha1(get_class($owner) . '_' . $owner->id . '_' . $data['content']),
+            'is_mobile' => $data['is_mobile'] ?? false,
+            'hash' => sha1(get_class($owner) . '_' . microtime() . '_' . $owner->id . '_' . $data['content']),
         ];
 
         $path = storage_path('app/' . $file_data['hash']);

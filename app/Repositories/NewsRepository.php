@@ -54,8 +54,8 @@ class NewsRepository {
     /**
      * Create news item
      * 
+     * @access public
      * @param array $fields
-     * 
      * @return boolean
      */
     public function create(array $fields) {
@@ -77,9 +77,9 @@ class NewsRepository {
     /**
      * Update news item
      * 
+     * @access public
      * @param NewsItem $model
      * @param array $fields
-     * 
      * @return boolean
      */
     public function update(NewsItem $model, array $fields) {
@@ -140,8 +140,8 @@ class NewsRepository {
     /**
      * Delete news item
      * 
+     * @access public
      * @param NewsItem $model
-     * 
      * @return boolean
      */
     public function delete(NewsItem $model) {

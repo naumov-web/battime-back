@@ -76,8 +76,8 @@ class NewsController extends Controller
     /**
      * Delete news item
      * 
+     * @access public
      * @param NewsItem $item
-     * 
      * @return array
      */
     public function delete(NewsItem $item)
