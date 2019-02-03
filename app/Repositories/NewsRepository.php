@@ -126,6 +126,42 @@ class NewsRepository {
     }
 
     /**
+     * Publish news item
+     * 
+     * @access public
+     * @param NewsItem $model
+     * @return NewsItem
+     */
+    public function show(NewsItem $model)
+    {
+        $model->fill(
+            [
+                'visible' => true
+            ]
+        );
+        $model->save();
+        return $model;
+    }
+
+    /**
+     * Hide news item
+     * 
+     * @access public
+     * @param NewsItem $model
+     * @return NewsItem
+     */
+    public function hide(NewsItem $model)
+    {
+        $model->fill(
+            [
+                'visible' => false
+            ]
+        );
+        $model->save();
+        return $model;
+    }
+
+    /**
      * Sync news item categories
      * 
      * @access protected

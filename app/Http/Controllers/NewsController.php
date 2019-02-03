@@ -74,6 +74,34 @@ class NewsController extends Controller
     }
 
     /**
+     * Publish news item
+     * 
+     * @access public
+     * @param NewsItem $item
+     * @return array
+     */
+    public function show(NewsItem $item)
+    {
+        return [
+            'success' => $this->repository->show($item)
+        ];
+    }
+
+    /**
+     * Hide news item
+     * 
+     * @access public
+     * @param NewsItem $item
+     * @return array
+     */
+    public function hide(NewsItem $item)
+    {
+        return [
+            'success' => $this->repository->hide($item)
+        ];
+    }
+
+    /**
      * Delete news item
      * 
      * @access public
